@@ -1,0 +1,15 @@
+,prolific_age,prolific_sex,participant_no,self_report_gender,self_report_assigned-at-birth,self_report_age,aligns
+0,45,Male,1,,,,NaN
+1,38,Female,2,,,,NaN
+2,37,Male,3,Male,Yes,37,True
+3,25,Female,4,,,,NaN
+4,21,Female,5,,,,NaN
+5,34,Male,6,Male,Yes,34,True
+6,30,Female,7,Female,Yes,30,True
+7,20,Female,8,Female,Yes,20,True
+8,25,Male,9,Male,Yes,25,True
+9,49,Female,10,,,,NaN
+10,49,Male,11,,,,NaN
+11,29,Male,12,Male,Yes,29,True
+12,48,Male,13,,,,NaN
+13,59,Male,14,Male,Yes,59,True

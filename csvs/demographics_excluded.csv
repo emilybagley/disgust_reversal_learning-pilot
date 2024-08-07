@@ -1,0 +1,12 @@
+,prolific_age,prolific_sex,participant_no,self_report_gender,self_report_assigned-at-birth,self_report_age,aligns,digit_span
+0,45,Male,1,,,,,task failed
+1,38,Female,2,,,,,task failed
+2,37,Male,3,Male,Yes,37.0,True,7.0
+3,25,Female,4,,,,,task failed
+4,21,Female,5,,,,,task failed
+5,34,Male,6,Male,Yes,34.0,True,task failed
+7,20,Female,8,Female,Yes,20.0,True,12.0
+8,25,Male,9,Male,Yes,25.0,True,9.0
+9,49,Female,10,,,,,6.0
+11,29,Male,12,Male,Yes,29.0,True,9.0
+12,48,Male,13,,,,,task failed
