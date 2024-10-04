@@ -178,7 +178,6 @@ def make_task_understood(df, complete_task_df, to_do):
             task_understood_temp['long_breaks']="Yes"
             task_understood_temp['breaks_details']=[task[task.rt/60000>10].reset_index().rt[0]/60000]
         
-
         task_understood_temp['total_time']=task.time_elapsed.iloc[-1]/60000
 
         ##did they reach the right number of reversals
@@ -199,7 +198,7 @@ def make_task_understood(df, complete_task_df, to_do):
         task_understood_temp['criteria_total']=task_understood_temp[['criteria_f', 'criteria_d', 'criteria_p']].sum(axis=1)
 
         ##Checking they learnt the task correctly
-        if task_understood_temp.attention_checks[0]>4 and task_understood_temp.criteria_total[0]<3 and task_understood_temp.long_breaks[0]=="No" and task_understood_temp.total_time[0]<120:
+        if task_understood_temp.attention_checks[0]>=4 and task_understood_temp.criteria_total[0]<3 and task_understood_temp.long_breaks[0]=="No" and task_understood_temp.total_time[0]<120:
             task_understood_temp['task_understood']="Yes"
         else:
             task_understood_temp['task_understood']="No"
